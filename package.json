@@ -1,9 +1,9 @@
 {
-    "name": "ycy",
-    "displayName": "超越鼓励师",
-    "description": "写代码不再孤单，有杨超越与你同在",
+    "name": "yzy",
+    "displayName": "兔佬膜你器",
+    "description": "写代码不再孤单，有杨子越与你同在",
     "version": "0.0.1",
-    "publisher": "formulahendry",
+    "publisher": "maniacata",
     "icon": "logo.jpg",
     "engines": {
         "vscode": "^1.30.0"
@@ -12,37 +12,38 @@
         "Other"
     ],
     "keywords": [
-        "杨超越",
+        "杨子越",
         "提醒",
-        "鼓励"
+        "鼓励",
+        "兔佬"
     ],
     "bugs": {
-        "url": "https://github.com/formulahendry/vscode-ycy/issues",
-        "email": "formulahendry@gmail.com"
+        "url": "https://github.com/ManiaciaChao/vscode-ycy/issues",
+        "email": "maniaciachao@gmail.com"
     },
-    "homepage": "https://github.com/formulahendry/vscode-ycy/blob/master/README.md",
+    "homepage": "https://github.com/ManiaciaChao/vscode-ycy/blob/master/README.md",
     "repository": {
         "type": "git",
-        "url": "https://github.com/formulahendry/vscode-ycy.git"
+        "url": "https://github.com/ManiaciaChao/vscode-ycy.git"
     },
     "activationEvents": [
-        "onCommand:ycy.showReminderView",
+        "onCommand:yzy.showReminderView",
         "*"
     ],
     "main": "./out/extension",
     "contributes": {
         "commands": [
             {
-                "command": "ycy.showReminderView",
+                "command": "yzy.showReminderView",
                 "title": "打开提醒页面",
-                "category": "ycy"
+                "category": "yzy"
             }
         ],
         "configuration": {
             "type": "object",
-            "title": "杨超越",
+            "title": "杨子越",
             "properties": {
-                "ycy.reminderViewIntervalInMinutes": {
+                "yzy.reminderViewIntervalInMinutes": {
                     "type": "number",
                     "default": 60,
                     "description": "展示提醒页面的时间间隔（分钟）"
